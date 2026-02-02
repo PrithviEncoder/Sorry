@@ -20,7 +20,9 @@ typeEffect();
 
 /* Surprise */
 function showSurprise() {
-  document.getElementById("surprise").style.display = "block";
+    document.getElementById("surprise").style.display = "block";
+    document.querySelector(".btn").style.display = "none";
+    document.querySelector(".container").style.marginTop = "100px";
 }
 
 /* Floating Hearts Generator */
@@ -57,5 +59,5 @@ function toggleMusic() {
 /* Show more emotional text */
 function showMore() {
     document.getElementById("moreText").style.display = "block";
-    document.querySelector(".container").style.marginTop = "80px";
+    document.querySelector(".container").style.marginTop = "120px";
 }
