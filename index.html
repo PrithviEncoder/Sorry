@@ -8,6 +8,19 @@
 </head>
 <body>
 
+    <!-- For You Title + Music -->
+<div class="for-you-wrapper">
+  <h1 class="for-you-text">FOR YOU</h1>
+
+  <button class="music-btn" onclick="toggleMusic()">▶ Play Song</button>
+
+  <!-- You will add your own song file -->
+  <audio id="bgMusic">
+    <source src="songs/musafir.mp3" type="audio/mpeg">
+  </audio>
+</div>
+
+
   <!-- Floating Hearts -->
   <div class="hearts"></div>
 
@@ -27,6 +40,15 @@
         Your smile matters to me more than anything.
       </p>
       <p class="emoji">🥺💐💞</p>
+
+      <button class="more-btn" onclick="showMore()">More words from my heart 💗</button>
+
+     <p id="moreText" class="more-text">
+      If I could take back that moment, I would.  
+      If I could protect your heart, I would do it a   thousand times.  
+      I care more than my silence ever showed.  
+      </p>
+
     </div>
     <p class="author">By Prithvi</p>
   </div>

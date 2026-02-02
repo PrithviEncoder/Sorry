@@ -38,3 +38,24 @@ setInterval(() => {
     span.remove();
   }, 7000);
 }, 400);
+
+
+/* Music toggle */
+const music = document.getElementById("bgMusic");
+const musicBtn = document.querySelector(".music-btn");
+
+function toggleMusic() {
+  if (music.paused) {
+    music.play();
+    musicBtn.innerText = "⏸ Pause Song";
+  } else {
+    music.pause();
+    musicBtn.innerText = "▶ Play Song";
+  }
+}
+
+/* Show more emotional text */
+function showMore() {
+    document.getElementById("moreText").style.display = "block";
+    document.querySelector(".container").style.marginTop = "80px";
+}
