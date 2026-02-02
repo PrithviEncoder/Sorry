@@ -6,13 +6,14 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(135deg, #ffd6e8, #ffeef6);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  overflow: hidden;
+  overflow-x: hidden;
 }
+
 
 /* Main Box */
 .container {
@@ -24,7 +25,11 @@ body {
   max-width: 400px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
   animation: fadeIn 1.5s ease;
+
+  margin-top: 140px;   /* 👈 KEY LINE */
+  margin-bottom: 40px;
 }
+
 
 .title {
   color: #e75480;
@@ -108,12 +113,11 @@ body {
 /* "For You" Text */
 
 .for-you-wrapper {
-  position: absolute;
-  top: 25px;
+  margin-top: 20px;
   text-align: center;
   width: 100%;
-  z-index: 5;
 }
+
 
 .for-you-text {
   color: #c2185b; /* dark pink */
