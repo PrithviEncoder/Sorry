@@ -12,6 +12,7 @@ body {
   flex-direction: column;
   align-items: center;
   overflow: hidden;
+  overflow-y: scroll;
 }
 
 
@@ -30,6 +31,14 @@ body {
   margin-bottom: 40px;
 }
 
+.love{
+    /* display: none; */
+    font-size: 1.2rem;
+    color: #c2185b;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
 
 .title {
   color: #e75480;
@@ -143,6 +152,51 @@ body {
   background: #c2185b;
   color: white;
 }
+
+/* water */
+/* Water wave background */
+.water {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+  z-index: 0;
+  border-radius: 0 0 20px 20px;
+}
+
+.water svg {
+  width: 200%;
+  height: 100%;
+  animation: waveMove 6s linear infinite;
+}
+
+.water path {
+  fill: rgba(255, 140, 180, 0.35); /* soft pink water */
+}
+
+/* Ensure content stays above water */
+.container {
+  position: relative;
+  overflow: hidden;
+}
+
+.container > *:not(.water) {
+  position: relative;
+  z-index: 2;
+}
+
+/* Wave animation */
+@keyframes waveMove {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
 
 
 /* Animations */
