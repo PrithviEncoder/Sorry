@@ -1,5 +1,5 @@
 /* Typewriter Effect */
-const text = "Mujhe pata hai ki shayad ye message tujh tak kabhi nhi pouch payega. par phir bhi mai likh rha hu. Tu mujse pyaar nhi karti ye baat mujhe pata hai. Mai bhi tujhe pareshan nhi krna chahta. Mujhe pata hai ki tu padhai kar rhi hai. Aur ab mai insta ya kishi per bhi tuhje pareshan nhi karunga. Mai toh bas itna hi chahta ta ki tu hamesha khush rahe. Chahe kahi bhi rahe. Kisi ke sath bhi rahe.Aur mai vo bol du jo mere dil mai hai bas. Bas itna hi kehna chahta tha par tune mujhe shayad galat samjha. Tu jo bhi kar rahi h uske liye all the best. Mai tere reply ka hamesha wait karunga.I hope kabhi toh tu samjhegi.";
+const text = "Mujhe pata hai ki shayad ye message tujh tak kabhi nhi pouch payega. par phir bhi mai likh rha hu. Tu mujse pyaar nhi karti ye baat mujhe pata hai. Mai bhi tujhe pareshan nhi krna chahta. Mujhe pata hai ki tu padhai kar rhi hai. Aur ab mai insta ya kishi per bhi tuhje pareshan nhi karunga. Mai toh bas itna hi chahta ta ki tu hamesha khush rahe. Chahe kahi bhi rahe. Aur mai vo bol du jo mere dil mai hai bas. Bas itna hi kehna chahta tha par tune mujhe shayad galat samjha. Tu jo bhi kar rahi h uske liye all the best. Mai tere reply ka hamesha wait karunga.I hope kabhi toh tu samjhegi.";
 
 let index = 0;
 const speed = 50;
